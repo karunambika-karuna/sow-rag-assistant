@@ -1,0 +1,146 @@
+[
+ {
+  "recall@1": 0.6511627906976745,
+  "recall@5": 0.9534883720930233,
+  "mrr@10": 0.7808416389811736,
+  "misses@5": [
+   "nw-02",
+   "cr-10"
+  ],
+  "chunking": "fixed-120w",
+  "mode": "bm25",
+  "chunks": 19
+ },
+ {
+  "recall@1": 0.5813953488372093,
+  "recall@5": 0.9302325581395349,
+  "mrr@10": 0.7388519748984865,
+  "misses@5": [
+   "nw-01",
+   "nw-02",
+   "nw-03"
+  ],
+  "chunking": "fixed-120w",
+  "mode": "dense",
+  "chunks": 19
+ },
+ {
+  "recall@1": 0.5813953488372093,
+  "recall@5": 0.9767441860465116,
+  "mrr@10": 0.7455426356589148,
+  "misses@5": [
+   "nw-02"
+  ],
+  "chunking": "fixed-120w",
+  "mode": "hybrid",
+  "chunks": 19
+ },
+ {
+  "recall@1": 0.6976744186046512,
+  "recall@5": 0.9767441860465116,
+  "mrr@10": 0.8161129568106312,
+  "misses@5": [
+   "nw-02"
+  ],
+  "chunking": "fixed-120w",
+  "mode": "hybrid_rerank",
+  "chunks": 19
+ },
+ {
+  "recall@1": 0.6744186046511628,
+  "recall@5": 0.9069767441860465,
+  "mrr@10": 0.7719269102990035,
+  "misses@5": [
+   "nw-02",
+   "nw-09",
+   "ax-01",
+   "he-02"
+  ],
+  "chunking": "section, no header",
+  "mode": "bm25",
+  "chunks": 40
+ },
+ {
+  "recall@1": 0.4883720930232558,
+  "recall@5": 0.7906976744186046,
+  "mrr@10": 0.6388796603912884,
+  "misses@5": [
+   "nw-01",
+   "nw-02",
+   "nw-03",
+   "ax-05",
+   "he-01",
+   "he-02",
+   "he-08",
+   "he-09",
+   "cr-07"
+  ],
+  "chunking": "section, no header",
+  "mode": "dense",
+  "chunks": 40
+ },
+ {
+  "recall@1": 0.5116279069767442,
+  "recall@5": 0.9302325581395349,
+  "mrr@10": 0.6925064599483204,
+  "misses@5": [
+   "nw-02",
+   "ax-05",
+   "he-02"
+  ],
+  "chunking": "section, no header",
+  "mode": "hybrid",
+  "chunks": 40
+ },
+ {
+  "recall@1": 0.6046511627906976,
+  "recall@5": 0.9302325581395349,
+  "mrr@10": 0.7547434477667037,
+  "misses@5": [
+   "nw-03",
+   "he-02",
+   "cr-07"
+  ],
+  "chunking": "section, no header",
+  "mode": "hybrid_rerank",
+  "chunks": 40
+ },
+ {
+  "recall@1": 0.8372093023255814,
+  "recall@5": 0.9767441860465116,
+  "mrr@10": 0.9011627906976746,
+  "misses@5": [
+   "nw-02"
+  ],
+  "chunking": "section + contextual header",
+  "mode": "bm25",
+  "chunks": 40
+ },
+ {
+  "recall@1": 0.8837209302325582,
+  "recall@5": 1.0,
+  "mrr@10": 0.9310077519379845,
+  "misses@5": [],
+  "chunking": "section + contextual header",
+  "mode": "dense",
+  "chunks": 40
+ },
+ {
+  "recall@1": 0.8837209302325582,
+  "recall@5": 1.0,
+  "mrr@10": 0.9418604651162791,
+  "misses@5": [],
+  "chunking": "section + contextual header",
+  "mode": "hybrid",
+  "chunks": 40
+ },
+ {
+  "recall@1": 0.9767441860465116,
+  "recall@5": 1.0,
+  "mrr@10": 0.9883720930232558,
+  "misses@5": [],
+  "chunking": "section + contextual header",
+  "mode": "hybrid_rerank",
+  "chunks": 40
+ }
+]

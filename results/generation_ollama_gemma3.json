@@ -1,0 +1,551 @@
+{
+ "model": "ollama/gemma3",
+ "answer_accuracy": 1.0,
+ "citation_validity": 1.0,
+ "refusal_accuracy": 0.875,
+ "avg_seconds": 15.59666666666667,
+ "rows": [
+  {
+   "id": "nw-01",
+   "q": "How much is the total fixed price for the Northwind Mutual claims project?",
+   "answer": "The total fixed fee is USD 412,000 [1]. Payments are invoiced against milestones with varying percentages [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 35.89,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "nw-02",
+   "q": "Within how many days must Northwind pay an invoice?",
+   "answer": "Invoices are payable within 45 days of receipt [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 18.94,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "nw-03",
+   "q": "What uptime does Northwind's claims service have to achieve each month?",
+   "answer": "The production service must be available 99.5 percent of the time per calendar month, excluding scheduled maintenance [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 19.27,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "nw-04",
+   "q": "When does the Northwind engagement kick off?",
+   "answer": "The engagement kicks off on 6 January 2027 [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 20.19,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "nw-05",
+   "q": "How many claim document types will the Northwind classifier recognise?",
+   "answer": "The vendor will build an intelligent document processing pipeline that classifies incoming claim documents into 11 document types [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 19.52,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "nw-06",
+   "q": "Which cloud region must Northwind claim data stay in?",
+   "answer": "All claim data stays in Northwind\u2019s Azure tenant in the Central India region [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 17.1,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "nw-07",
+   "q": "Are Hindi handwritten forms covered in Northwind phase one?",
+   "answer": "No, Hindi handwritten forms are out of scope for phase one [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 16.59,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "nw-08",
+   "q": "What is the cap on travel costs for Northwind?",
+   "answer": "Travel expenses are billed at cost and capped at USD 18,000 [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 15.23,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "nw-09",
+   "q": "What is the minimum field extraction accuracy required for Northwind?",
+   "answer": "Field-level extraction accuracy must be at least 95 percent on the agreed test set [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 14.17,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "nw-10",
+   "q": "How long do Northwind's people have to raise a defect before a deliverable is deemed accepted?",
+   "answer": "Northwind staff have 10 business days to raise a written defect after delivery [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 19.91,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "nw-11",
+   "q": "How many claims does Northwind handle per month today?",
+   "answer": "Northwind Mutual Insurance processes roughly 18,000 motor and property claims per month [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 14.71,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-01",
+   "q": "What is the spending ceiling on the Asterix Retail Bank KYC engagement?",
+   "answer": "The engagement is billed on time and materials with a not-to-exceed cap of INR 1,85,00,000 [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 15.08,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-02",
+   "q": "What is the day rate for the solution architect at Asterix?",
+   "answer": "The solution architect\u2019s blended day rate is INR 52,000 [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 14.9,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-03",
+   "q": "How fast must the Asterix verification API respond?",
+   "answer": "The verification API must respond within 3 seconds for 95 percent of requests [1]. Severity 1 incidents receive a response within 15 minutes and resolution within 2 hours [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 16.38,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-04",
+   "q": "How long are KYC decision audit logs kept at Asterix bank?",
+   "answer": "Audit logs of every verification decision are retained for 8 years [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 17.6,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-05",
+   "q": "Is video KYC part of the Asterix project?",
+   "answer": "Video KYC is excluded from this SOW [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 15.11,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-06",
+   "q": "Where will Asterix customer data be processed?",
+   "answer": "All data is processed on the bank\u2019s on-premise Kubernetes cluster in Mumbai [1]. Vendor engineers work from the bank\u2019s secure development centre [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 15.81,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-07",
+   "q": "What straight-through rate must the Asterix pilot achieve to be accepted?",
+   "answer": "The pilot is accepted when straight-through verification reaches 70 percent of applications with zero high-risk misses, as measured over two consecutive weeks [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 17.62,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-08",
+   "q": "What is the maximum false acceptance rate for tampered IDs at Asterix?",
+   "answer": "The false acceptance rate for tampered documents must stay below 0.5 percent on the bank\u2019s red-team test set [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 15.07,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-09",
+   "q": "How long does the Asterix project last?",
+   "answer": "The project runs for 16 weeks starting 3 February 2027 [1]. Go-live across all branches is planned in week 14 [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 15.46,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-10",
+   "q": "What onboarding platform will the Asterix KYC service integrate with?",
+   "answer": "The KYC document verification service will return a verification decision with reasons to the bank\u2019s onboarding platform, OnboardX [2]. The vendor will deliver an OnboardX integration [1].",
+   "citations": [
+    1,
+    2
+   ],
+   "seconds": 14.54,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "ax-11",
+   "q": "How quickly must a Severity 1 incident be resolved for Asterix?",
+   "answer": "Severity 1 incidents must receive a resolution within 2 hours [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 13.81,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-01",
+   "q": "What does phase 2 of the Helios Industrial Supply project cost?",
+   "answer": "Phase 2 of the Helios Industrial Supply project costs USD 194,000 [1]. It covers supplier recommendation and the dashboard [2].",
+   "citations": [
+    1,
+    2
+   ],
+   "seconds": 14.32,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-02",
+   "q": "What are Helios's invoice payment terms?",
+   "answer": "Invoices are payable within 60 days [1]. Each phase is invoiced 40 percent at phase start and 60 percent on phase acceptance [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 15.23,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-03",
+   "q": "How many RFQs does Helios get every week?",
+   "answer": "Helios Industrial Supply receives around 1,200 requests for quotation (RFQs) per week [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 17.28,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-04",
+   "q": "How many suppliers can be recommended per RFQ line at Helios?",
+   "answer": "Up to three suppliers per line based on purchase history [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 16.68,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-05",
+   "q": "What is the monthly support retainer for Helios after hypercare?",
+   "answer": "The monthly support retainer is USD 6,500 beginning after hypercare ends [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 16.25,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-06",
+   "q": "Which AWS region hosts the Helios solution?",
+   "answer": "The solution is hosted on AWS in the ap-south-1 (Mumbai) region [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 13.68,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-07",
+   "q": "How quickly must Helios draft quotes be created after an RFQ arrives?",
+   "answer": "Draft quotations must be created within 15 minutes of RFQ receipt for 90 percent of RFQs during business hours [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 19.47,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-08",
+   "q": "Does the Helios project include automatic price calculation?",
+   "answer": "Automatic price calculation is out of scope [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 11.89,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-09",
+   "q": "In which week is full go-live planned for Helios?",
+   "answer": "Full go-live is planned for week 22 [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 14.08,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-10",
+   "q": "How long does Helios keep logs?",
+   "answer": "Logs are retained for 180 days [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 13.39,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "he-11",
+   "q": "What share of opportunities does Helios think it loses to slow quoting?",
+   "answer": "Helios estimates it loses 15 percent of opportunities to slow responses [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 14.81,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "cr-01",
+   "q": "What is the implementation fee for Crestline Health Partners?",
+   "answer": "The fixed implementation fee is USD 336,000, invoiced 25 percent at kickoff, 25 percent at M2, and 50 percent at go-live [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 17.21,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "cr-02",
+   "q": "How is the Crestline gain-share calculated and capped?",
+   "answer": "The gain-share is 10 percent of verified early-payment discounts captured in the first 12 months [1]. It is payable quarterly and capped at USD 90,000 [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 17.16,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "cr-03",
+   "q": "What is the default price variance tolerance in Crestline's three-way match?",
+   "answer": "The default price variance tolerance is 2 percent [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 13.48,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "cr-04",
+   "q": "How many hospitals does Crestline run?",
+   "answer": "Crestline Health Partners operates 23 hospitals [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 19.03,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "cr-05",
+   "q": "Which cloud platform and region will Crestline's solution run in?",
+   "answer": "The solution runs in Crestline\u2019s Oracle Cloud Infrastructure (OCI) tenancy in the Hyderabad region [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 15.58,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "cr-06",
+   "q": "What line-item accuracy is required for Crestline invoices?",
+   "answer": "Line-item accuracy must be at least 94 percent [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 11.45,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "cr-07",
+   "q": "Who gives final sign-off on the Crestline project?",
+   "answer": "The CFO signs the final acceptance [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 13.43,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "cr-08",
+   "q": "What percentage of Crestline invoices currently miss the early-payment discount?",
+   "answer": "Eleven percent of invoices miss their early-payment discount window [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 15.24,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "cr-09",
+   "q": "How long are Crestline logs retained?",
+   "answer": "Logs are retained for 7 years to meet audit requirements [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 12.11,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "cr-10",
+   "q": "When does the Crestline engagement begin?",
+   "answer": "The engagement lasts 18 weeks beginning 7 April 2027 [1].",
+   "citations": [
+    1
+   ],
+   "seconds": 13.44,
+   "correct": true,
+   "cited_valid": true
+  },
+  {
+   "id": "un-01",
+   "q": "What is the penalty for late delivery on the Helios project?",
+   "answer": "NOT_FOUND",
+   "citations": [],
+   "seconds": 13.46,
+   "correct": true
+  },
+  {
+   "id": "un-02",
+   "q": "Who is the Northwind project sponsor?",
+   "answer": "NOT_FOUND",
+   "citations": [],
+   "seconds": 13.08,
+   "correct": true
+  },
+  {
+   "id": "un-03",
+   "q": "What programming language must the Asterix service be written in?",
+   "answer": "NOT_FOUND",
+   "citations": [],
+   "seconds": 11.9,
+   "correct": true
+  },
+  {
+   "id": "un-04",
+   "q": "How many vendor engineers will work on the Crestline project?",
+   "answer": "NOT_FOUND",
+   "citations": [],
+   "seconds": 11.4,
+   "correct": true
+  },
+  {
+   "id": "un-05",
+   "q": "What is the warranty period after Helios go-live?",
+   "answer": "The warranty period is three years [5].",
+   "citations": [
+    5
+   ],
+   "seconds": 11.57,
+   "correct": false
+  },
+  {
+   "id": "un-06",
+   "q": "Which law governs the Northwind contract?",
+   "answer": "NOT_FOUND",
+   "citations": [],
+   "seconds": 11.17,
+   "correct": true
+  },
+  {
+   "id": "un-07",
+   "q": "What discount does Asterix get for paying early?",
+   "answer": "NOT_FOUND",
+   "citations": [],
+   "seconds": 12.5,
+   "correct": true
+  },
+  {
+   "id": "un-08",
+   "q": "What is the Crestline project's budget for travel?",
+   "answer": "NOT_FOUND",
+   "citations": [],
+   "seconds": 12.24,
+   "correct": true
+  }
+ ],
+ "note": "re-scored after grader fix: cr-08 accepts eleven as well as 11"
+}
